@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "快手批量建计划",
+  "description": "快手批量建计划--导入xlsx批量建计划",
+  "version": "1.8",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ads.kwai.com/*",
+        "https://business.kwai.com/*"
+      ],
+      "css": [
+        "css/app.css"
+      ],
+      "js": [
+        "js/index.js",
+        "js/app.js",
+        "js/chunk-vendors.js"
+      ]
+    }
+  ]
+}
